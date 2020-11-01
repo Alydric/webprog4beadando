@@ -1,0 +1,122 @@
+<!DOCTYPE html>
+<html>
+	<head>
+		<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+		<script src='script.js'></script>
+		<title>Beadandó</title>
+		<meta charset="utf-8">
+		<link href="style.css" rel="stylesheet">
+	</head>
+	<body id="top">
+		
+		<div class="row2" id="navbar">
+		  <nav id="mainav" class="kozepre">
+			<ul class="">
+			  <li><a href="index.html" class="active">MODELLEK</a></li>
+			  <li><a href="#">Hetilap</a></li>
+			  <li><a class="drop" href="#">Online</a></li>
+			  <li><a href="#">Hetilap+Online</a></li>
+			  <li><a href="#">DEMÓ</a></li>
+			  <li><a href="#">Címkéző</a></li>
+			  <li><a href="#">Tanító</a></li>
+			</ul>
+		  </nav>
+		</div>
+		<div class="row1">
+		  <header id="header" class="kozepre"> 
+			<div id="logo">
+			  <h1>címkeajánló</a></h1>
+			  <h3>HETILAP</h3>
+			</div>
+		
+		<div class="row1a">
+		<h3>Cikkek listája:</h3>
+		<select id = "select2" name="select2" size="1" style="width: 1000px;"></select>
+		<button id = "prevPage"><<</button>
+		<button id = "prev"><</button>
+		<button id = "next">></button>
+		<button id = "nextPage">>></button>
+		<br>
+		
+		<h4>Valószínűség:</h4> 
+		<input type="range" value="0" min="0" max="1000" step="100" id="egyid" style="width: 1000px;" />
+		<input type="checkbox" id="checkbox1" name="checkbox1" value="checkbox1">
+		<label for="checkbox1">min 3.</label>
+		</div>
+		  </header>
+		</div>
+		<hr>
+		<div class="row3">
+		  <main class="content"> 
+			
+			<article class="kozepre">
+			
+			  <h3 class="class1">Cikk szövege</h3>
+			  <p id="text">itt lesz a beolvasott szöveg</p>
+			</article>
+			<hr>
+			
+			<div class="kozepre">
+			  <div class="one_quarter">
+				<h3 class="">Eredeti címkék</h3>
+				<p id = "uniqueLabels" >itt lesz a beolvasott szöveg</p>
+			  </div>
+			  <div class="one_quarter">
+					<h3 class="">Ajánlott címkék</h3>
+					<p id = "recommendedLabels">itt lesz a beolvasott szöveg</p>
+			  </div>
+			  <div class="one_quarter">
+					<h3 class="">Eredeti címkék(egyéb)</h3>
+					<p id = "uniqueOtherLabels">itt lesz a beolvasott szöveg</p>
+			  </div>
+			  <div class="one_quarter">
+					<h3 class="">Ajánlott címkék(egyéb)</h3>
+					<p id = "recommendedOtherLabels">itt lesz a beolvasott szöveg</p>
+					
+			  </div>
+			</div>
+			<hr>
+			<section>
+			
+			<div class="box">
+				<table style="height: 195px; margin-left: auto; margin-right: auto;" width="709">
+<tbody>
+<tr>
+<td style="width: 167px;">HETILAP</td>
+<td style="width: 168px;">HETILAP+</td>
+<td style="width: 171px;">ONLINE</td>
+<td style="width: 175px;">HETILAP + ONLINE</td>
+</tr>
+<tr>
+<td style="width: 167px;">cikk: <strong>110 ezer</strong></td>
+<td style="width: 168px;">cikk: <strong>110 ezer</strong></td>
+<td style="width: 171px;">cikk: <strong>80 ezer</strong></td>
+<td style="width: 175px;">cikk: <strong>195 ezer</strong></td>
+</tr>
+<tr>
+<td style="width: 167px;">c&iacute;mke: <strong>1023 db</strong></td>
+<td style="width: 168px;">c&iacute;mke: <strong>26901 db</strong></td>
+<td style="width: 171px;">c&iacute;mke: <strong>76654 db</strong></td>
+<td style="width: 175px;">c&iacute;mke: <strong>104432 db</strong></td>
+</tr>
+<tr>
+<td style="width: 167px;">token: <strong>73 milli&oacute;</strong></td>
+<td style="width: 168px;">token: <strong>73 milli&oacute;</strong></td>
+<td style="width: 171px;">token: <strong>35 milli&oacute;</strong></td>
+<td style="width: 175px;">token: <strong>112 milli&oacute;</strong></td>
+</tr>
+<tr>
+<td style="width: 167px;">type: <strong>62 ezer</strong></td>
+<td style="width: 168px;">type:<strong> 36 ezer</strong></td>
+<td style="width: 171px;">type: <strong>33 ezer</strong></td>
+<td style="width: 175px;">type: <strong>38 ezer</strong></td>
+	</tr>
+		</tbody>
+			</table>		
+			</div>
+			</section>
+			<hr>
+		  </main>
+		</div>
+	</body>
+</html>
